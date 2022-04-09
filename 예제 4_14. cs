@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace 예제_4_14
+    // 변수 i 가 짝수일 때 continue 키워드로 현재 반복을 멈추고 다음 반복을 진행하기
+    // 즉 홀수만 출력하기
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                if(i%2 == 0)
+                {
+                    continue;
+                }
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("컴퓨터공학과, 20210845, 2학년, 홀수반, 서예빈");
+        }
+    }
+}
