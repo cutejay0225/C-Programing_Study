@@ -21,7 +21,7 @@ namespace 예제_4_1
             Console.WriteLine(intArray[1]);
             Console.WriteLine(intArray[2]);
             Console.WriteLine(intArray[3]);
-            Console.WriteLine("컴퓨터공학과, 20210845, 2학년, 홀수반, 서예빈");
+     
         }
     }
 }
